@@ -7,4 +7,4 @@
 - [Introduction to Microservices](https://www.youtube.com/watch?v=EEwT6y5h09I) - (13:47)
 
 ### Tutorials 
-- [Building Microservices Applications on Azure Service Fabric] (https://mva.microsoft.com/en-US/training-courses/building-microservices-applications-on-azure-service-fabric-16747) 
+- [Building Microservices Applications on Azure Service Fabric](https://mva.microsoft.com/en-US/training-courses/building-microservices-applications-on-azure-service-fabric-16747) 
