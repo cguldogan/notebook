@@ -8,3 +8,6 @@
 
 ## Tutorials 
 - [Building Microservices Applications on Azure Service Fabric](https://mva.microsoft.com/en-US/training-courses/building-microservices-applications-on-azure-service-fabric-16747) 
+
+## Slides 
+- [Slides & Materials](https://drive.google.com/open?id=15hJivkaA-MSD01E1y05zyJisW4YbMeVC)
