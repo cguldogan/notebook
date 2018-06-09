@@ -1,12 +1,12 @@
 # Install CLI
-- npm install -g @angular/cli
+- ```npm install -g @angular/cli```
 
 # New Application 
-- ng new <my-app>
+- ```ng new <my-app>```
 
 # Run (Serve) Application
-- cd <my-app>
-- ng serve --open
+- ``` cd <my-app> ```
+- ``` ng serve --open ```
 
 
 ```
@@ -17,5 +17,5 @@
 
 #Agular CLI Commands
 
-- ng generate component <component-name>
-- ng generate service <service-name>
+- ```ng generate component <component-name>```
+- ```ng generate service <service-name>```
