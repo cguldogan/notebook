@@ -43,3 +43,10 @@ const routes: Routes = [
 })
 export class AppRoutingModule { }
 ```
+
+```
+<nav>
+  <a routerLink="/heroes">Heroes</a>
+</nav>
+<router-outlet></router-outlet>
+```
