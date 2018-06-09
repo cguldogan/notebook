@@ -15,7 +15,14 @@
 *app.component.css* — the component's private CSS styles.
 ```
 
-#Agular CLI Commands
+# Angular CLI Commands
 
 - ```ng generate component <component-name>```
 - ```ng generate service <service-name>```
+
+# Routing
+
+```ng generate module app-routing --flat --module=app```
+
+--flat puts the file in src/app instead of its own folder.<br>
+--module=app tells the CLI to register it in the imports array of the AppModule.
