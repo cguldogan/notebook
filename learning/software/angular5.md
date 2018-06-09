@@ -52,3 +52,12 @@ export class AppRoutingModule { }
 </nav>
 <router-outlet></router-outlet>
 ```
+
+# HTTP services
+```
+open the root AppModule,
+import the HttpClientModule symbol from @angular/common/http,
+add it to the @NgModule.imports array.
+```
+
+
