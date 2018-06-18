@@ -53,11 +53,36 @@ export class AppRoutingModule { }
 <router-outlet></router-outlet>
 ```
 
+# Two Way Binding
+```
+import { FormsModule } from '@angular/forms'; // <-- NgModel lives here
+
+imports: [
+  BrowserModule,
+  FormsModule
+],
+
+```
+
+```
+<div>
+    <label>name:
+      <input [(ngModel)]="hero.name" placeholder="name">
+    </label>
+</div>
+```
+
+```
+<li *ngFor="let hero of heroes"
+    [class.selected]="hero === selectedHero"
+    (click)="onSelect(hero)">
+    <span class="badge">{{hero.id}}</span> {{hero.name}}
+</li>
+```
+
 # HTTP services
 ```
 open the root AppModule,
 import the HttpClientModule symbol from @angular/common/http,
 add it to the @NgModule.imports array.
 ```
-
-
